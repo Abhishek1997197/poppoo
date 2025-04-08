@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animal World</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <button id="shareBtn">🔗 Share</button>
+    <h1>Home</h1>
+    <button onclick="location.reload()">🔄 Refresh</button>
+    <div id="shareOptions" class="hidden">Share this site: <br/> <input value="https://example.com" readonly></div>
+  </header>
+
+  <main>
+    <section class="featured">
+      <h2>Featured Animals</h2>
+      <div class="slider">
+        <iframe src="https://www.youtube.com/embed/kTny1iFuTh0" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/whksDmTR9YE" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/9SPixBok5ls" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/tsGdo5Uiy9Q" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/Kfm9JFmhfkk" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="categories">
+      <h2>Filter by Category</h2>
+      <div class="category-grid">
+        <!-- Categories -->
+        <div class="category"><div class="icon">🐱</div><p>Cats</p></div>
+        <div class="category"><div class="icon">🐶</div><p>Dogs</p></div>
+        <div class="category"><div class="icon">🦖</div><p>Dinosaur</p></div>
+        <div class="category"><div class="icon">🐘</div><p>Mammal</p></div>
+        <div class="category"><div class="icon">🐦</div><p>Bird</p></div>
+        <div class="category"><div class="icon">🦎</div><p>Reptile</p></div>
+        <div class="category"><div class="icon">🐠</div><p>Fish</p></div>
+        <div class="category"><div class="icon">🐚</div><p>Mollusk</p></div>
+        <div class="category"><div class="icon">🐸</div><p>Amphibian</p></div>
+        <div class="category"><div class="icon">🧽</div><p>Poriferan</p></div>
+        <div class="category"><div class="icon">🕷️</div><p>Arthropod</p></div>
+        <div class="category"><div class="icon">🪱</div><p>Annelid</p></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
